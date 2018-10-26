@@ -1,0 +1,23 @@
+﻿  GibbsMLDA.cpp
+f:\naka_t\git_nagailab\mlda\myio.h(33): warning C4477: 'fscanf' : 書式文字列 '%d' には、型 'int *' の引数が必要ですが、可変個引数 1 は型 'bool *' です
+f:\naka_t\git_nagailab\mlda\myio.h(33): warning C4477: 'sscanf' : 書式文字列 '%d' には、型 'int *' の引数が必要ですが、可変個引数 1 は型 'bool *' です
+f:\naka_t\git_nagailab\mlda\myio.h(35): warning C4477: 'fscanf' : 書式文字列 '%s' には、型 'char *' の引数が必要ですが、可変個引数 1 は型 'char **' です
+f:\naka_t\git_nagailab\mlda\myio.h(35): warning C4477: 'sscanf' : 書式文字列 '%s' には、型 'char *' の引数が必要ですが、可変個引数 1 は型 'char **' です
+  GibbsMLDATest.cpp
+f:\naka_t\git_nagailab\mlda\myio.h(33): warning C4477: 'fscanf' : 書式文字列 '%d' には、型 'int *' の引数が必要ですが、可変個引数 1 は型 'bool *' です
+f:\naka_t\git_nagailab\mlda\myio.h(33): warning C4477: 'sscanf' : 書式文字列 '%d' には、型 'int *' の引数が必要ですが、可変個引数 1 は型 'bool *' です
+f:\naka_t\git_nagailab\mlda\myio.h(35): warning C4477: 'fscanf' : 書式文字列 '%s' には、型 'char *' の引数が必要ですが、可変個引数 1 は型 'char **' です
+f:\naka_t\git_nagailab\mlda\myio.h(35): warning C4477: 'sscanf' : 書式文字列 '%s' には、型 'char *' の引数が必要ですが、可変個引数 1 は型 'char **' です
+f:\naka_t\git_nagailab\mlda\config_parser.h(16): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+f:\naka_t\git_nagailab\mlda\config_parser.h(30): warning C4018: '>': signed と unsigned の数値を比較しようとしました。
+..\..\GibbsMLDATest.cpp(21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+..\..\GibbsMLDATest.cpp(26): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+..\..\GibbsMLDATest.cpp(35): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+..\..\GibbsMLDATest.cpp(53): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+..\..\GibbsMLDATest.cpp(87): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+..\..\GibbsMLDATest.cpp(94): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  コード生成しています。
+  All 1241 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  mlda.vcxproj -> F:\naka_t\Git_Nagailab\mlda\msvc\mlda\..\..\mlda.exe
+  mlda.vcxproj -> ..\..\mlda.pdb (Full PDB)
