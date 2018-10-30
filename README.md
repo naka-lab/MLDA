@@ -12,8 +12,8 @@ Mac, Ubuntuではmakeでコンパイルできます．
 ./mlda -learn -config lda_config.json
 ```
 
--learn : 学習するためのオプション
--config file_name：設定ファイルを読み込み
+- -learn : 学習するためのオプション
+- -config file_name：設定ファイルを読み込み
 
 
 ### 認識
@@ -22,8 +22,8 @@ Mac, Ubuntuではmakeでコンパイルできます．
 ```
 
 
--recog : 学習するためのオプション
--config file_name：設定ファイルを読み込み
+- -recog : 学習するためのオプション
+-- config file_name：設定ファイルを読み込み
 
 ### 設定ファイル
 
