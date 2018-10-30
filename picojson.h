@@ -41,6 +41,7 @@
 #include <string>
 #include <vector>
 #include <utility>
+#include <cmath>
 
 // for isnan/isinf
 #if __cplusplus >= 201103L
