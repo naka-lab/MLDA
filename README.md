@@ -23,7 +23,7 @@ Mac, Ubuntuではmakeでコンパイルできます．
 
 
 - -recog : 学習するためのオプション
--- config file_name：設定ファイルを読み込み
+- -config file_name：設定ファイルを読み込み
 
 ### 設定ファイル
 
