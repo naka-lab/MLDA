@@ -2,8 +2,8 @@
 Tomoaki Nakamura, Takaya Araki, Takayuki Nagai and Naoto Iwahashi, “Grounding of Word Meanings in LDA-Based Multimodal Concepts”, Advanced Robotics, Vol.25, pp. 2189-2206, Apr.2012
 
 ## インストール
-Windowsでは`msvc/mlda.sln`をVisual Studio 2015 (Release, x86)でコンパイルを確認しています．
-Mac, Ubuntuではmakeでコンパイルできます．
+Windowsでは`msvc/mlda.sln`をVisual Studio 2015 (Release, x86)でコンパイルできることを確認しています．
+Mac, Ubuntuではmakeでコンパイルで確認しています．
 
 ## 実行方法
 ### 学習
@@ -27,7 +27,7 @@ Mac, Ubuntuではmakeでコンパイルできます．
 
 ### 設定ファイル
 
-設定ファイルのjsonで以下のように記述してください．
+設定ファイルはjson形式で以下のように記述してください．
 
 ```
 {
@@ -61,10 +61,10 @@ Mac, Ubuntuではmakeでコンパイルできます．
 |num_modal     | 入力するモダリティ数 |
 |num_smiter    | Gibssサンプリングを繰り返す回数 |
 |num_cat       | カテゴリ数 |
-|data*         | *番目のデータ（タブ区切りテキスト）のファイル名 |
+|data*         | *番目のデータ（タブ区切りテキスト）のファイル名．データがない場合や，予測させたい場合には`"NULL"`を指定 |
 |dim*          | *番目のデータの次元数 |
 |weight*       | *番目のデータに対する重み（分類する際の重要度）|
-|category      | 正解カテゴリが記述されたテキストのファイル名．もしなければ `NULL` を指定 |
+|category      | 正解カテゴリが記述されたテキストのファイル名．もしなければ `"NULL"` を指定 |
 |save_dir      | 学習されたモデルの保存先（学習時のみに使用） |
 |num_trial     | 初期値を変えてサンプリングを繰り返す回数（学習時のみに使用） |
 |load_dir      | 学習済みモデルの格納ディレクトリ（認識時のみに使用） |
@@ -83,12 +83,12 @@ mlda -learn -config lda_config.json -num_cat 15
 |ファイル名 | 内容｜
 |:-------:|:----|
 |ClassResult.txt     | 分類結果 |
-|ClassResult2.txt    | 正解カテゴリが与えられた場合に，正解に最も近くなるように数値を入れ替えた分類結果．|
+|ClassResult2.txt    | 正解カテゴリが与えられた場合に，正解に最も近くなるようにカテゴリ番号を入れ替えた分類結果|
 |confutionmat.txt    | 分類の精度と混同行列 |
 |Nmwz*.txt           | 学習の結果，*番目のモダリティの特徴wにカテゴリzが割り当てられた回数．|
 |Nmz.txt             | 学習の結果，モダリティmにカテゴリzが割り当てられた回数．|
-|phi*.txt            | モダリティ*においてカテゴリzで特徴wが発生する確率P(w&#124;z) |
-|Pw*.txt             | d番目の物体から*番目のモダリティの特徴wが発生する確率P(w&#124;d) |
+|phi*.txt            | *番目のモダリティにおいて，カテゴリzで特徴wが発生する確率P(w&#124;z) |
+|Pw*.txt             | d番目の物体から*番目のモダリティの特徴wが発生する確率P(w&#124;d)．data*に`"NULL"`を指定した場合は，予測値となる．|
 |theta.txt           | d番目の物体がカテゴリzに分類される確率P(z&#124;d) |
 
 
