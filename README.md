@@ -5,6 +5,11 @@ Tomoaki Nakamura, Takaya Araki, Takayuki Nagai and Naoto Iwahashi, “Grounding 
 Windowsでは`msvc/mlda.sln`をVisual Studio 2015 (Release, x86)でコンパイルできることを確認しています．
 Mac, Ubuntuではmakeでコンパイルで確認しています．
 
+```
+make clean
+make
+```
+
 ## 実行方法
 ### 学習
 
