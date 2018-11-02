@@ -1,19 +1,4 @@
-#pragma once
-/*******************************************************************
-Array.cpp		developed by naka_t 2009.12.02
-
-
-多次元配列を扱うための関数
-
-＊オーバーロードで作成していたものを
-＊テンプレート関数にしてみました							naka_t	2008.07.08
-＊fprintfVar,fscanfVarをMyIO.hへ移行
-　SaveVariableとLoadVariableの変数上書き保存機能追加		naka_t	2009.12.02
- ＊行列保存・読み込み関数（Load/SaveVariableMatrix)追加		naka_t	2011.01.31
- ＊ソースコードの整理										naka_t	2011.02.01
- ＊配列のスライス関数を追加									naka_t  2012.07.09
-
- *******************************************************************/
+﻿#pragma once
 #include <string>
 #include <vector>
 #include <map>

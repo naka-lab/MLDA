@@ -1,15 +1,4 @@
-/*********************************************************************
-
-MyIO.h     Copyright 2009.12.02 by naka_t
-
-
-  last modified by naka_t 2009.12.02
-
-  ＊入出力関数						naka_t 2008.04.30
-  ＊ファイルからの入出力を追加		naka_t 2009.12.02
-  ＊std::string版のfgetsを追加		naka_t 2009.12.02
-*********************************************************************/
-#pragma once
+﻿#pragma once
 #include <time.h>
 #include <stdio.h>
 #include <string>

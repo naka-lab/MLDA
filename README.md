@@ -2,7 +2,7 @@
 Tomoaki Nakamura, Takaya Araki, Takayuki Nagai and Naoto Iwahashi, “Grounding of Word Meanings in LDA-Based Multimodal Concepts”, Advanced Robotics, Vol.25, pp. 2189-2206, Apr.2012
 
 ## インストール
-Windowsでは`msvc/mlda.sln`をVisual Studio 2015 (Release, x86)でコンパイルできることを確認しています．
+Windowsでは`msvc/mlda.sln`をVisual Studio 2017でコンパイルできることを確認しています．
 Mac, Ubuntuではmakeでコンパイルできることを確認しています．
 
 ```

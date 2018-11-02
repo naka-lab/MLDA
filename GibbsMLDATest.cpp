@@ -1,4 +1,4 @@
-// GibbsLDATest.cpp : コンソール アプリケーションのエントリ ポイントを定義します。
+﻿// GibbsLDATest.cpp : コンソール アプリケーションのエントリ ポイントを定義します。
 //
 #define _CRT_SECURE_NO_WARNINGS 1
 #include "array.h"
