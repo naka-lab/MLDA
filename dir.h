@@ -3,5 +3,5 @@
 #else
 #include <stdlib.h>
 #include <sys/stat.h>
-#define _mkdir(name) mkdir( name, 755 )
+#define _mkdir(name) mkdir( name, 0755 )
 #endif
